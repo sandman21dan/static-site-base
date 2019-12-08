@@ -1,0 +1,24 @@
+{
+  "name": "static-site-base",
+  "version": "1.0.0",
+  "description": "A base for a static site",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.pug",
+    "start": "parcel src/index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Perez",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "pug": "^2.0.4",
+    "sass": "^1.23.7"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/sandman21dan/static-site-base.git"
+  }
+}

@@ -1,0 +1,7 @@
+@use 'pallete';
+
+.foot {
+    background-color: pallete.$primary;
+    height: 10rem;
+    width: 100%;
+}

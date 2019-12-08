@@ -1,0 +1,7 @@
+@use 'pallete';
+
+.nav {
+    height: 3rem;
+    width: 100%;
+    background-color: pallete.$primary;
+}
